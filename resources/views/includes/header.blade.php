@@ -1,0 +1,15 @@
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="{{route('dashboard')}}">SocialApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li style="margin-right: 10px;"><a href="{{ route('account') }}" class="links-main">My Account</a></li>
+                    <li><a href="{{ route('logout') }}"  class="links-main">Logout</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+</nav>
+</header>
